@@ -1,5 +1,6 @@
 const form = document.querySelector('.form-quizz');
 let tabResult = [];
+const reponse = ['c', 'a', 'b','a','c'];
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
